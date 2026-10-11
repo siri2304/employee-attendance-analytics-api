@@ -45,7 +45,7 @@ STATUSES = PRESENCE | {"ABSENT", "LEAVE"}
 MIN_EPOCH_MS = 100_000_000_000
 MAX_EPOCH_MS = 4_102_444_800_000
 
-# FastAPI app already created above
+app = FastAPI(title="Employee Attendance & Analytics API", version="2.0.0")
 
 
 # ------------------------------- time helpers -------------------------------
@@ -961,7 +961,6 @@ STATUSES = PRESENCE | {"ABSENT", "LEAVE"}
 MIN_EPOCH_MS = 100_000_000_000
 MAX_EPOCH_MS = 4_102_444_800_000
 
-app = FastAPI(title="Employee Attendance & Analytics API", version="2.0.0")
 
 
 # ------------------------------- time helpers -------------------------------
